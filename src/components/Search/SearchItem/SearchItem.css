@@ -1,0 +1,7 @@
+.search-item {
+    cursor: pointer;
+}
+
+.search-item:hover {
+    text-decoration: underline;
+}

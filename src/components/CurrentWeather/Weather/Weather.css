@@ -1,0 +1,18 @@
+.weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather__abbr {
+    width: 200px;
+    height: 200px;
+}
+
+.weather__content {
+    margin-left: 50px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
