@@ -7,7 +7,9 @@ export default function Weather({weather}) {
     
     return (
         <div className='weather'>
-            <img className='weather__abbr' src={`/static/img/weather/png/${abbr}.png`} alt={abbr}/>
+            <img
+                className='weather__abbr'
+                src={`https://www.metaweather.com/static/img/weather/png/${abbr}.png`} alt={abbr}/>
             <div className='weather__content'>
                 <div className='weather__title'>
                     {title}
